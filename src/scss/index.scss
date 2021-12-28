@@ -1,0 +1,13 @@
+html, body {
+  height: 100%;
+  background: #EBCAD7;
+background: -webkit-linear-gradient(top left, #EBCAD7, #6A87EE);
+background: -moz-linear-gradient(top left, #EBCAD7, #6A87EE);
+background: linear-gradient(to bottom right, #EBCAD7, #6A87EE);
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

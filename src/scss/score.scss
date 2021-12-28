@@ -1,0 +1,42 @@
+.score-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
+  color: #545454;
+  width: 500px;
+  margin: 5%;
+  gap: 10%;
+  
+  .score {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+  }  
+
+  button {
+    background-color: #545454;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+  }
+
+  // small screens
+  @media screen and (max-width: 768px) {
+    width: 300px;
+    font-size: large;
+    margin: 10%;
+
+    button {
+      font-size: x-small;
+      width: 60px;
+      height: 30px;
+    }
+  }
+}
